@@ -1,19 +1,27 @@
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 400px;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#e66465, #9198e5);
+    background-image: url("/images/kitten-background.jpg");
+    background-repeat: repeat;
+    
 }
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 300px;
-}
 
 h3 {
     font-size: 50px;
     color: black;
+    background-color: #843B62;
+    border-radius: 50%;
+    padding: 10px;
 }
