@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("kitten-memory-game/images/kitten-background.jpg");
+    background-image: url("/images/kitten-background.jpg");
     background-repeat: repeat;
     
 }
